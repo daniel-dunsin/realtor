@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "manrope";
+  src: url(../public/font/Manrope-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: "manrope";
+}
+
+.navbar {
+  animation: scale-up 0.3s linear;
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(0.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
