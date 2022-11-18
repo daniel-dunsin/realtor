@@ -39,11 +39,11 @@ export function Navbar() {
   return (
     <nav className="py-2 px-3 border-b-2">
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
-        <div>
-          <h1 className="text-blue-500 font-bold text-[20px] md:text-[27px]">
+        <Link href="/">
+          <h1 className="text-blue-500 font-bold text-[20px] md:text-[27px] cursor-pointer">
             Realtor
           </h1>
-        </div>
+        </Link>
         <div className="ml-auto relative" onClick={toggleNav}>
           <button
             className={`text-[25px] w-[30px] h-[30px] flex justify-center items-center border-2 rounded-md text-gray-600 ${

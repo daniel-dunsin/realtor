@@ -15,6 +15,14 @@
   animation: scale-up 0.3s linear;
 }
 
+.carousel i {
+  transition: 0.3s;
+  opacity: 0;
+}
+.carousel:hover i {
+  opacity: 1;
+}
+
 @keyframes scale-up {
   0% {
     transform: scale(0.4);

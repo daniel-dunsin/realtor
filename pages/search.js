@@ -12,7 +12,7 @@ export default function Search({ properties }) {
     return (
         <>
             <Head>
-                <title>Realtor Properties {query?.purpose?.split("-")?.join(" ")}</title>
+                <title>Realtor Properties</title>
             </Head>
             <main className='w-full max-w-[1280px] px-4 py-8 md:px-6'>
                 <div className='bg-blue-50 py-2'>

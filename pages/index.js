@@ -17,8 +17,8 @@ export default function Home({ propertiesForRent, propertiesForSale }) {
         <Banner image="/images/home1.png" subtitle="rent a home" title="Rental Homes for Everyone" description="Explore from apartments, builder floors, villas and more" buttonText="Explore Renting" />
 
         <section className='flex flex-col md:flex-row flex-wrap gap-4 justify-between px-4'>
-          {propertiesForRent?.map((property, index) => {
-            return <Property key={index} {...property} />
+          {propertiesForRent?.map((property) => {
+            return <Property key={property.id} {...property} />
           })}
         </section>
 
